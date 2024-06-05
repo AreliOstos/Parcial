@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cabecerafijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(7, 54, 42);
+    color: #fff;
+    padding: 30px 0;
+    z-index: 1000;
+  }
+  
+  .cajaprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+  }
+  
+  .logo img {
+    height: 70px; 
+  }
+  
+  .menubotones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menubotones ul li {
+    display: inline-block;
+    margin-left: 20px;
+    
+  }
+  
+  .menubotones ul li:first-child {
+    text-decoration: solid;
+    margin-left: 0;
+   
+  }
+  
+
+  .menubotones ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menubotones ul li a:hover {
+    background-color: #0d4723;
+  }
+
+
+.quinta-seccion {
+    background-color: #fff9f2;
+    padding: 350px 0;
+    border-radius: 5px;
+       
+  }
+
+  .quinta-seccion h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #042b10;
+  }
+
+  .quinta-seccion p {
+    color: #6e7272;
+    text-align: center;
+    font-size: 30px;
+    line-height:20px ;
+    margin-bottom: 10px;
+  }
+
+  .contenedorcinco {
+    max-width: 1300px;
+    height: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content:space-around;
+   
+  }
+
+  .column {
+    flex-basis: 300px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .column img {
+    max-width: 100%;
+    height: 180px;
+    padding: 5px;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .column:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+  .column p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .column a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #3ebbf5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .column a:hover {
+    background-color: #000000;
+  }
+
+
+  
+  .footer {
+    background-color: #033025;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+   
+  }
+  
+  h2, p {
+    color: #fff;
+    margin: 0;
+  }
